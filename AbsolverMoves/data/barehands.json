@@ -1,0 +1,3024 @@
+{
+    "moveList": [
+        {
+            "name": "360 Tornado Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": -1
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Ankle Stamp",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "thrust",
+            "frames": {
+                "startup": 11,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Axe Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 7
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Back Fist",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Back Hop Wrist",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 0
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Back Tripped Kick",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 4,
+                    "guard": -1
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Back Turn Wrist",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Back Ura",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Backfall Strike",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "lands": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 2
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Bending Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 8
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Blink Punch",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 0
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Body Blow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Bounce Knee",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Calbot",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 1
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Charged Haymaker",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 22,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 5
+                }
+            },
+            "modifiers": [
+                "charge"
+            ]
+        },
+        {
+            "name": "Chin Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Cleaver Blow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Collar Chop",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 24,
+                "advantage": {
+                    "hit": 15,
+                    "guard": 15
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Cross Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 6
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Crouching Elbow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Crushing Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 7
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Curled Up Uppercut",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 6
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Direct Punch",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Donkey Slap",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Double Fist Stretch",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 1
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Double Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Double Spike Kick",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Double Wata",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Drunk Crane",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Drunk Stomp",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 6
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Drunken Paw",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 21,
+                "advantage": {
+                    "hit": 13,
+                    "guard": 5
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Drunken Smash",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 13,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Dwit Chagi",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 7
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Elbow Stumble",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Eye Poke",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 7
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Face Backfist",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Falcon Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 22,
+                "advantage": {
+                    "hit": 13,
+                    "guard": 6
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Fast Back Fist",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 0
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Fast Cross",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Fast Elbow",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Fast Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Fencing Punch",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Foot Slap",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 5,
+                    "guard": 0
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Front Kick",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 12
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Front Sweep",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 2
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Furious Uppercut",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 22,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "charge"
+            ]
+        },
+        {
+            "name": "Grab Punch",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 21,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Gut Punch",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Guts Punch",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 6
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Hadrunken",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "both",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 21,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "charge"
+            ]
+        },
+        {
+            "name": "Hammer Kick",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 12
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Handstand Kick",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 7,
+                    "guard": -1
+                }
+            },
+            "modifiers": [
+                "double",
+                "low"
+            ]
+        },
+        {
+            "name": "Heel to Knee",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "thrust",
+            "frames": {
+                "startup": 11,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Hook",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "side": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Horse Kick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 23,
+                "advantage": {
+                    "hit": 13,
+                    "guard": 8
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Illusion Twist Kick",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Inside Kick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Jab Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 4,
+                    "guard": 0
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Jackhammer Punch",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 5
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "Jar Bash",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Jump Out Elbow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 21,
+                "advantage": {
+                    "hit": 13,
+                    "guard": 13
+                }
+            },
+            "modifiers": [
+                "break",
+                "jump"
+            ]
+        },
+        {
+            "name": "Jumped Light Kick",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 11,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 0
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Jumped Spin kick",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 23,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 6
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Jumping Risekick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Knee Strike",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 12
+                }
+            },
+            "modifiers": [
+                "break",
+                "jump"
+            ]
+        },
+        {
+            "name": "Knife Hand Strike",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Leg Breaker",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Light Sidekick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Liver Knee",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 6
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Low Backfist",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Low Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Low Spin Heel",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Mawashi",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 10,
+                "advantage": {
+                    "hit": 3,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Meia Lua",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Mill Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {}
+            },
+            "side": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "double"
+            ]
+        },
+        {
+            "name": "One Inch Punch",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 24,
+                "advantage": {
+                    "hit": 15,
+                    "guard": 15
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Outward Kick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Parry & Strike",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_LEFT"
+                }
+            },
+            "side": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 2
+                }
+            },
+            "modifiers": [
+                "parry"
+            ]
+        },
+        {
+            "name": "Plexus Elbow",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 12
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Power Mawashi",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 19,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Pulmonary Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 8
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Pushed Back Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 19,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 11
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Pushed Elbow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_LEFT"
+                }
+            },
+            "side": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Rabbit Punch",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Reaching Maegeri",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Reaching Mawashi",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Rising Kick",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 6
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Roll Back Fist",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 2
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Roll Punch",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 3
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Roll Uppercut",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 19,
+                "advantage": {
+                    "hit": 11,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Run-up Strike",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_LEFT",
+                    "FRONT_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 21,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Scissor Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Side Kick",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 17,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Slap Kick",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "jump"
+            ]
+        },
+        {
+            "name": "Soto-uke",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spin Back Fist",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spin Elbow",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 11,
+                "advantage": {
+                    "hit": 5,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spinning Flute Swing",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spinning High Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 22,
+                "advantage": {
+                    "hit": 14,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spinning Wide Hook",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 23,
+                "advantage": {
+                    "hit": 14,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spiral Back Punch",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 6
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Spiral Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 24,
+                "advantage": {
+                    "hit": 15,
+                    "guard": 15
+                }
+            },
+            "modifiers": [
+                "break"
+            ]
+        },
+        {
+            "name": "Straight Punch",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Stretch Out Hook",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Surging Palm",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 12,
+                    "guard": 5
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Switch Kick",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "low",
+            "type": "thrust",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Temple Knock",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Tetsuzanko",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 18,
+                "advantage": {
+                    "hit": 10,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "strafe"
+            ]
+        },
+        {
+            "name": "Tripped Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "FRONT_LEFT",
+                    "FRONT_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 5,
+                    "guard": 2
+                }
+            },
+            "modifiers": [
+                "duck"
+            ]
+        },
+        {
+            "name": "Twist Back Kick",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 15,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Twist Parry Strike",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 20,
+                "advantage": {
+                    "hit": 9,
+                    "guard": 4
+                }
+            },
+            "modifiers": [
+                "parry"
+            ]
+        },
+        {
+            "name": "Underknee kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "diff",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 3
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Upper Backfist",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "vertical",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Upper Elbow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 23,
+                "advantage": {
+                    "hit": 14,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Uraken",
+            "style": "faejin",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_LEFT",
+                    "BACK_LEFT": "BACK_RIGHT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 6,
+                    "guard": 4
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Uramawashi",
+            "style": "windfall",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                },
+                "sword": {
+                    "BACK_RIGHT": "FRONT_LEFT",
+                    "BACK_LEFT": "FRONT_RIGHT"
+                }
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "horizontal",
+            "frames": {
+                "startup": 13,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Wallop Blow",
+            "style": "kahlt",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "BACK_RIGHT",
+                    "BACK_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "BACK_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 5
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Whirlwind Double Punch",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "BACK_RIGHT": "FRONT_RIGHT",
+                    "BACK_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 16,
+                "advantage": {
+                    "hit": 7,
+                    "guard": 1
+                }
+            },
+            "modifiers": [
+                "duck",
+                "double"
+            ]
+        },
+        {
+            "name": "Winged Back Kick",
+            "style": "forsaken",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "mid",
+            "type": "thrust",
+            "frames": {
+                "startup": 14,
+                "advantage": {
+                    "hit": 8,
+                    "guard": 6
+                }
+            },
+            "modifiers": [
+                "stop"
+            ]
+        },
+        {
+            "name": "Wobble Low Kick",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                },
+                "sword": {
+                    "FRONT_RIGHT": "BACK_RIGHT",
+                    "FRONT_LEFT": "BACK_LEFT"
+                }
+            },
+            "hits": "same",
+            "height": "low",
+            "type": "horizontal",
+            "frames": {
+                "startup": 12,
+                "advantage": {
+                    "hit": 5,
+                    "guard": 2
+                }
+            },
+            "modifiers": []
+        },
+        {
+            "name": "Wrist Jab",
+            "style": "stagger",
+            "stance": {
+                "barehands": {
+                    "FRONT_RIGHT": "FRONT_RIGHT",
+                    "FRONT_LEFT": "FRONT_LEFT"
+                },
+                "sword": {}
+            },
+            "hits": "diff",
+            "height": "high",
+            "type": "thrust",
+            "frames": {
+                "startup": 11,
+                "advantage": {
+                    "hit": 5,
+                    "guard": 1
+                }
+            },
+            "modifiers": []
+        }
+    ]
+}
